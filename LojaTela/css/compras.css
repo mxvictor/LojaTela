@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-family:'Roboto Condensed' , sans-serif;
+  }
+  
+  #header{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 15px;
+    background-image:url(../img/background.png);
+  }
+  #logo {
+      margin-top:5px;
+      margin-left:91px;
+      height:57px;
+      width:57px;
+      background-image:url(../img/Logo.png);
+      background-repeat:no-repeat;
+  }
+  #menu {
+	margin-top:-40px;
+	margin-left:1350px;
+	height:32px;
+	width:544px;
+}
+ul li{
+
+	float:left;
+	list-style:none;
+	font-size:25px;
+	font-weight:300;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+	padding:15px 15px 0px 15px;
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+
+}
+.botao a:hover{
+	border-bottom: 3px solid #5c2373;
+  animation-duration: 0.2s;
+}
+  .contato{
+    margin-top: 25px;
+    background:rgb(12, 68, 170);
+  }
+  .contato h1{
+    padding-top: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family:'Roboto Condensed' , sans-serif;
+	}
+	

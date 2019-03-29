@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.Master.cs" Inherits="LojaTela.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/teste.css">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="logo"></div>
+      <div id="menu">
+          <ul>
+            <li class="botao"><a href="/" title="HOME">HOME</a></li>
+            <li class="botao"><a href="/" title="SOBRE">SOBRE</a></li>
+            <li class="botao"><a href="PaginaProduto.aspx" title="PRODUTOS">PRODUTOS</a></li>
+            <li class="botao"><a href="PaginaCliente.aspx" title="CLIENTE">CLIENTES</a></li>
+          </ul>
+      </div>
+    <div id="header"></div>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+    <footer class="footer">
+          <a href="https://www.facebook.com/victor.mendes.12979?ref=bookmarks" target="_blank"><img src="img/facebook.png" alt="ops!" /></a>
+          <a href="https://twitter.com/MxVictor1" target="_blank"><img src="img/twitter.png" alt="ops!" /></a>
+          <a href="https://www.instagram.com/_victormendes/" target="_blank"><img src="img/instagram.png" alt="ops!" /></a> 
+        </footer>
+</body>
+</html>

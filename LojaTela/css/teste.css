@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family:'Roboto Condensed' , sans-serif;
+}
+
+#header{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image:url(../img/background.png);
+}
+#logo {
+	margin-top:18px;
+	margin-left:91px;
+	position:absolute;
+	height:57px;
+	width:57px;
+	background-image:url(../img/Logo.png);
+	background-repeat:no-repeat;
+}
+#logo2 {
+	margin-top:100px;
+	margin-left:46%;
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+#logo3 {
+	margin-top:100px;
+	margin-left:80%;
+	position:absolute;
+	background-repeat:no-repeat;
+}
+#logo4 {
+	margin-top:100px;
+	margin-left:7.8%;
+	position:absolute;
+	background-repeat:no-repeat;
+}
+.footer{
+  margin-top: 600px;
+  height: 130px;
+  background: white;
+}
+.footer a {
+  display: inline;
+  margin-top: 50px;
+  float: right;;
+  position: relative;;
+  height: 24px;
+  width: 24px;
+}
+
+#menu {
+	margin-top:26px;
+	margin-left:1350px;
+	position:absolute;
+	height:32px;
+	width:544px;
+}
+#content{
+  background-color: #FFFFFF;
+}
+#text {
+	position:absolute;
+	width:1420px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	color:#FFFFFF;
+}
+
+#text2 {
+	position:absolute;
+	width:1400px;
+  top: 103%;
+  left: 50%;
+	transform:translate(-50%,-50%);
+  text-align: center;
+  color: #3c3c3c;
+}
+.mid{
+  padding-top: 20px;
+text-align: center;
+}
+ul li {
+    text-shadow: black 0.1em 0.1em 0.2em;
+        float:left;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+	padding:15px 15px 0px 15px;
+	text-decoration:none;
+	color:#FFFFFF;
+
+}
+.botao a:hover{
+	border-bottom: 3px solid #5c2373;
+  animation-duration: 0.2s;
+}
+
+h1{
+	letter-spacing:5px;
+	font-weight:700;
+  font-size: 30px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 130px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+.texto3 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 37.8%;
+}
+.texto4 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 71.6%;
+}
+
+.texto5 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 0.2%;
+}
+#header #text h2{
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#text a{
+	background:black;
+	border-radius:5px;
+	color:#fcff19;
+	padding:10px;
+	text-decoration:none;
+}
+
+.contato{
+  margin-top: 7000px;
+  background:purple;
+}
+.contato h1{
+  padding-top: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+#local {
+    position: absolute;
+    width: 1420px;
+    top: 10%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #FFFFFF;
+}
