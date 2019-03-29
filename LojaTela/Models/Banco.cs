@@ -17,7 +17,7 @@ namespace LojaTeste.Modelos
 
         public Banco()
         {
-            connectionString = "Server=192.168.25.29;Port=5432;User id=postgres;password=12345;database=postgres";
+            connectionString = "Server=192.168.25.27;Port=5432;User id=postgres;password=12345;database=postgres";
             conn = null;
             AbrirConexao();
             parametros = new Dictionary<object, object>();

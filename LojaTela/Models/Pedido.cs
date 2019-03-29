@@ -50,10 +50,5 @@ namespace LojaTeste.Modelos
 
         }
 
-        //public override string ToString()
-        //{
-        //    return "           |  " + Numero + "  |   " + Data + "     |    ";// + . + "     |    " + Quantidade + "     |    ";
-        //}
-
     }
 }

@@ -24,10 +24,5 @@ namespace LojaTeste.Modelos
         {
 
         }
-
-        //public override string ToString()
-        //{
-        //    return "           |  " + ID + "  |   " + Nome + "     |    " + Preço + "     |    " + Quantidade + "     |    ";
-        //}
     }
 }

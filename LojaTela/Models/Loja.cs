@@ -134,8 +134,6 @@ namespace LojaTeste.Modelos
 
         public static void EditarProduto(Produto D, int id)
         {
-            //Produtos.Insert(id, D);
-            //Produtos.RemoveAt(id + 1);
             Banco banco = new Banco();
 
             banco.sql = $@"UPDATE produto

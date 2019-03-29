@@ -22,15 +22,15 @@
             <li class="botao"><a href="PaginaCliente.aspx" title="CLIENTE">CLIENTES</a></li>
           </ul>
       </div>
-    <div id="header"></div>
+    <div id="header">
 
-    <form id="form1" runat="server">
+    </div>         <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-
-        </div>
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                </div>
     </form>
+ 
     <footer class="footer">
           <a href="https://www.facebook.com/victor.mendes.12979?ref=bookmarks" target="_blank"><img src="img/facebook.png" alt="ops!" /></a>
           <a href="https://twitter.com/MxVictor1" target="_blank"><img src="img/twitter.png" alt="ops!" /></a>

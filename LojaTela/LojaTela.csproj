@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="CadastroCliente.aspx" />
     <Content Include="CadastroProduto.aspx" />
+    <Content Include="Compras.aspx" />
     <Content Include="css\cliente.css" />
     <Content Include="css\compras.css" />
     <Content Include="css\produto.css" />
@@ -115,6 +116,13 @@
     </Compile>
     <Compile Include="CadastroProduto.aspx.designer.cs">
       <DependentUpon>CadastroProduto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Compras.aspx.cs">
+      <DependentUpon>Compras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Compras.aspx.designer.cs">
+      <DependentUpon>Compras.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
