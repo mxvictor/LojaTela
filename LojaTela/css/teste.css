@@ -149,15 +149,6 @@ h2 {
 	text-decoration:none;
 }
 
-.contato{
-  margin-top: 7000px;
-  background:purple;
-}
-.contato h1{
-  padding-top: 20px;
-  font-weight: 700;
-  text-align: center;
-}
 #local {
     position: absolute;
     width: 1420px;
@@ -203,3 +194,9 @@ h2 {
         box-shadow: 0 5px #666;
         transform: translateY(4px);
     }
+
+[id$='ButtonVoltar'] {
+    position: absolute;
+    top: 86%;
+    left: 90%;
+}

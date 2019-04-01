@@ -13,12 +13,21 @@ namespace LojaTela {
     public partial class CadastroCliente {
         
         /// <summary>
-        /// Controle Button1.
+        /// Controle ButtonSalvar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button ButtonSalvar;
+        
+        /// <summary>
+        /// Controle ButtonVoltar.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonVoltar;
     }
 }
