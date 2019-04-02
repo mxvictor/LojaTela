@@ -167,6 +167,15 @@ h2 {
     height: 39%;
 }
 
+.grade tr:hover{
+    background-color:greenyellow;
+}
+
+.grade tr.selecionado{
+    background-color:aqua !important;
+
+}
+
 [id$='Button1'] {
     margin-left: 35%;
 }

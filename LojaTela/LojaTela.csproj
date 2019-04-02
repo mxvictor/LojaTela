@@ -98,6 +98,7 @@
     <Content Include="css\teste.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="JS\GridControl.js" />
     <Content Include="PaginaCliente.aspx" />
     <Content Include="PaginaProduto.aspx" />
     <Content Include="Web.config" />
